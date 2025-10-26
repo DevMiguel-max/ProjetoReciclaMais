@@ -296,7 +296,9 @@ form {
     margin-right: auto;
 }
 
+/* *** CÓDIGO CORRIGIDO AQUI *** */
 form input[type="text"],
+form input[type="email"],
 form textarea {
     width: 100%;
     padding: 12px;
