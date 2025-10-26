@@ -33,14 +33,14 @@
             
             <ul style="list-style-type: none; padding-left: 0; text-align: left; margin-bottom: 25px;">
                 <li><strong>Nome:</strong> informe seu nome completo para identificação.</li>
-                <li><strong>Telefone:</strong> coloque um número válido (preferencialmente WhatsApp), para entrarmos em contato se necessário.</li>
+                <li><strong>E-mail:</strong> informe um e-mail válido para contato.</li>
                 <li><strong>Endereço:</strong> informe o local onde está acontecendo a situação (rua, número, bairro e cidade), como descarte irregular, lixo acumulado ou coleta seletiva ausente.</li>
                 <li><strong>Descrição do problema:</strong> explique detalhadamente o que está ocorrendo no local, como descarte incorreto, falta de coleta, poluição ou materiais recicláveis abandonados.</li>
             </ul>
 
             <form action="https://formspree.io/f/xjkpkvgq" method="POST">
               <input type="text" name="nome" placeholder="Seu nome" required>
-              <input type="text" name="telefone" placeholder="Seu telefone" required>
+              <input type="email" name="email" placeholder="Seu e-mail" required>
               <input type="text" name="endereco" placeholder="Seu endereço" required>
               <textarea name="descricao" placeholder="O que está acontecendo?" required></textarea>
               <button type="submit">Enviar</button>
